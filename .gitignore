@@ -1,0 +1,8 @@
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Generated landscape outputs — ignore all except one showcase sample
+outputs/*
+!outputs/sample_landscape.md
