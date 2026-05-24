@@ -1,0 +1,12 @@
+# Precision Medicine Landscape Agent — dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core CLI agent
+anthropic==0.104.0        # Claude API (query generation, synthesis, verification)
+tavily-python==0.7.24     # web search API
+python-dotenv==1.2.2      # loads API keys from .env
+requests==2.34.2          # fallback page fetching
+beautifulsoup4==4.14.3    # HTML text extraction
+
+# Day 2 — web UI (not used by the CLI)
+streamlit==1.57.0
